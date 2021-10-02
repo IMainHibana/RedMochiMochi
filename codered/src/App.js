@@ -1,28 +1,10 @@
+import React, {useState} from 'react';
 import logo from './logo.svg';
-import notif from './Components/Notifications';
+import Notif from './Components/Notifications';
+import TipForm from './Components/tipForm';
 import './App.css';
 
 function App() {
-<<<<<<< Updated upstream
-    return ( <
-        div className = "App" >
-        <
-        nav >
-        <
-        h2 > Chi is gay < /h2> <
-        /nav> <
-        header className = "App-header" >
-        <
-        h2 > No, I am the godfather < /h2> <
-        /header> <
-        div >
-        <
-        notif / >
-        <
-        /div> <
-        /div>
-    );
-=======
   const [currentTip, setCurrentTip] = useState('');
   return (
     <div className="App">
@@ -40,7 +22,6 @@ function App() {
       </div>
     </div>
   );
->>>>>>> Stashed changes
 }
 
 export default App;
