@@ -1,32 +1,17 @@
 import React, {useState, useEffect} from 'react';
 
-const TipForm = (props) =>{
-
+const tipForm = (props) => {
     const initialValues = {
+        tipType: '',
+        tipName: '',
         tip: ''
     }
+
     var [info, setInfo] = useState(initialValues);
 
-    const handleChange = e =>{
-        var{name,value} = e.target;
-        setInfo({
-            [name]:value
-        })
-    }
-
-    const handleSubmit = e => {
-        e.preventDefault();
-    }
-
-    return (
-        <form onSubmit={handleSubmit}>
-            <label>
-                Tip:
-                <input type="text" value={info.tip}
-                onChange={handleChange} />
-            </label>
-            <input type="submit" value="Submit" />
-        </form>
-    );
+    useEffect(() => {
+        
+    })
 }
-export default TipForm;
+
+export default tipForm;

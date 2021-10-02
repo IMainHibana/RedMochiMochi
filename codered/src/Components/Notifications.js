@@ -1,10 +1,8 @@
 import React, {useState, useEffect} from 'react';
 
-const Notif = (props) => {
+const notif = (props) => {
     
     return(
         <div>This is a notification</div>
     )
 }
-
-export default Notif;
