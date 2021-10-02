@@ -2,7 +2,8 @@ import React, {useState} from 'react';
 import logo from './logo.svg';
 import notif from './Components/Notifications';
 import './App.css';
-import TipForm from './tipForm';
+import TipForm from './Components/tipForm';
+import Notif from './Components/Notifications';
 
 function App() {
   const [currentTip, setCurrentTip] = useState('');
@@ -14,6 +15,7 @@ function App() {
       <header className="App-header">
         <h2>I am the Godfather</h2>
         <TipForm>{currentTip}</TipForm>
+        <Notif></Notif>
       </header>
       <div>
         <notif/>
