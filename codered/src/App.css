@@ -63,6 +63,9 @@
   letter-spacing: 1px;
 }
 
+.btn-primary, .btn-primary:hover, .btn-primary:active {
+  background-color: #072361 !important;
+}
 
 .App .notifs {
   margin: auto;
