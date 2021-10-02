@@ -17,9 +17,6 @@ function App() {
         <TipForm>{currentTip}</TipForm>
         <Notif></Notif>
       </header>
-      <div>
-        <notif/>
-      </div>
     </div>
   );
 }
