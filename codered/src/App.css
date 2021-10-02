@@ -26,23 +26,13 @@
   background-size: 1000 x 600;
 }
 
-<<<<<<< Updated upstream
+
 .App .tips {
   background-color: #282c34;
-=======
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
->>>>>>> Stashed changes
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -83,14 +73,11 @@
   background: rgb(112, 169, 245);
   box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
 }
-<<<<<<< Updated upstream
 
-
-=======
 h1 {
   text-shadow: 2px 2px;
 }
 .worksafe{
   background-image: url("https://image.freepik.com/free-vector/white-abstract-background_23-2148810113.jpg");
 }
->>>>>>> Stashed changes
+

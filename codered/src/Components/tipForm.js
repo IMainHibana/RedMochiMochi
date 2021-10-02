@@ -3,7 +3,9 @@ import React, {useState, useEffect} from 'react';
 const TipForm = (props) =>{
 
     const initialValues = {
-        tip: ''
+        tipName: '',
+        tip: '',
+        example: ''
     }
     var [info, setInfo] = useState(initialValues);
 
@@ -21,10 +23,21 @@ const TipForm = (props) =>{
     return (
         <form onSubmit={handleSubmit}>
             <label>
-                Tip:
+                Tip Name:
+                <input type="text" value={info.tipName}
+                onChange={handleChange} />
+            </label>
+
+            <br />
+            
+            <label>
+                Tip: 
                 <input type="text" value={info.tip}
                 onChange={handleChange} />
             </label>
+
+            
+
             <input type="submit" value="Submit" />
         </form>
     );
