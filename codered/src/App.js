@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import notif from './Components/Notifications';
 import './App.css';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <header className="App-header">
         <h2>I am the Godfather</h2>
       </header>
+      < notif />
     </div>
   );
 }
