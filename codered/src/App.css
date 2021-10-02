@@ -2,18 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+.App .tips {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -24,15 +13,29 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App .tipform {
+  padding: 60px;
+  margin: auto;
+  display: flex;
+  width: 100%;
+  max-width: 520px;
+  min-height: 300px;
+  justify-content: center;
+  background: rgb(252, 200, 152);
+  box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.App .notifs {
+  padding: 60px;
+  margin: auto;
+  display: flex;
+  width: 100%;
+  max-width: 520px;
+  min-height: 300px;
+  justify-content: center;
+  background: rgb(112, 169, 245);
+  box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
 }
+
+
