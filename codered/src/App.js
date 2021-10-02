@@ -11,9 +11,6 @@ function App() {
       <header className="App-header">
         <h2>I am the Godfather</h2>
       </header>
-      <div>
-        <notif/>
-      </div>
     </div>
   );
 }
