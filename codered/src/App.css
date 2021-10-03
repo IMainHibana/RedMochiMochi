@@ -34,10 +34,9 @@
 .App .tipform {
   margin: auto;
   display: flex;
-  width: 100%;
   min-height: 300px;
   justify-content: center;
-  background: rgb(252, 200, 152);
+  background: transparent;
   box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
 }
 
