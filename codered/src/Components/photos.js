@@ -7,7 +7,7 @@ class Photo extends React.Component {
         return (
             <div>
             
-            <img src = "/images/download.jpg"
+            <img src = "/images/stretching.jpg"
             alt = "" / >
             </div>
         );
