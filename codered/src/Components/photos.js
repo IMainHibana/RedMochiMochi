@@ -1,46 +1,18 @@
 import React from 'react';
 
 
-class App extends React.Component {
+class Photo extends React.Component {
 
     render() {
-
-
         return (
-
-            <
-            div >
-
-
-            <
-            h2 > Welcome To The Cum Zone < /h2>
-
-            <
-            img src = "/images/download.jpg"
+            <div>
+            <h2> Welcome To The Cum Zone </h2>
+            <img src = "/images/download.jpg"
             alt = "" / >
-
-
-
-
-
-
-            <
-            /div>
-
-
-
-
+            </div>
         );
-
-
-
     }
-
-
-
-
-
 }
 
 
-export default App;
+export default Photo;
