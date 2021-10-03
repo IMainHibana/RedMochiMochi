@@ -1,12 +1,40 @@
 import React, { useState, useEffect } from 'react';
-import someImage
+
 
 const photoTips = (props) => {
 
+    render() {
 
-    <
-    h > newstuff <
-        /h>
+
+        return (
+
+            <
+            div >
+
+
+            <
+            h2 > Welcome To The Cum Zone < /h2>
+
+            <
+            img src = "/images/download.jpg"
+            alt = "" / >
+
+
+
+
+
+
+            <
+            /div>
+
+
+
+
+        );
+
+
+
+    }
 
 
 
