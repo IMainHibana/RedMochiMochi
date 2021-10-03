@@ -7,7 +7,7 @@ const Notif = (props) => {
     const SittingTips = [
         "Get up, stretch your arms out.", 
         "Grab some water.",
-        "Munch on some snacks,",
+        "Munch on some snacks.",
         "Posture check.",
         "Get up and meet with some coworkers.",
         "10 push-ups. Now."
@@ -17,7 +17,7 @@ const Notif = (props) => {
         <div>
             <h1>{Sitting}</h1>
             <h2>{Breaktime}</h2>
-            <h3>{SittingTips}</h3>
+            <h3>{SittingTips[Math.floor(Math.random()*SittingTips.length)]}</h3>
         </div>
     )
 }
