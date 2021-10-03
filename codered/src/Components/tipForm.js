@@ -5,7 +5,6 @@ const TipForm = (props) =>{
     const initialValues = {
         tipName: '',
         tip: '',
-        example: ''
     }
     var [info, setInfo] = useState(initialValues);
 
@@ -27,18 +26,13 @@ const TipForm = (props) =>{
                 <input type="text" value={info.tipName}
                 onChange={handleChange} />
             </label>
-
             <br />
-            
             <label>
                 Tip: 
                 <input type="text" value={info.tip}
                 onChange={handleChange} />
             </label>
-
-            
-
-            <input type="submit" value="Submit" />
+            <input type="submit" value="Submit" className="btn btn-primary btn-block"/>
         </form>
     );
 }
