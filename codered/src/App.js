@@ -16,13 +16,13 @@ function App() {
         <div className = "tips" >
         <Photo></Photo>
         </div> 
-        <div className = "notifs" >
-        <Notif> </Notif> 
-        </div> 
-        </div>
         <div className = "tipform" >
         <TipForm> </TipForm> 
         </div> 
+        </div>
+        <div className = "notifs" >
+        <Notif> </Notif> 
+        </div>
         </div>
     );
 }

@@ -28,19 +28,18 @@
 .App .tips {
   justify-content: center;
   padding-top: 64px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 100px;
   background-color: transparent;
 }
 
 .App .tipform {
-  padding-top: 60px;
-  margin: auto;
+  padding-top: 100px;
   display: flex;
   min-height: 300px;
   justify-content: center;
   background: transparent;
-  box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
 }
 
 .App .tipform input {
@@ -48,7 +47,6 @@
   border: none;
   outline: none;
   font-size: 19px;
-  padding: 10px;
   background: rgba(8, 8, 8, 0.1);
   color: white;
   letter-spacing: 1px;
@@ -61,7 +59,7 @@
 .App .notifs {
   margin: auto;
   display: flex;
-  width: 100%;
+  width: 50%;
   min-height: 300px;
   justify-content: center;
   background: rgb(112, 169, 245);
