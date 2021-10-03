@@ -21,6 +21,7 @@
 
 .App {
   overflow-x: hidden; 
+  padding-bottom: 263px;
   background-image: url("https://image.freepik.com/free-vector/white-abstract-background_23-2148810113.jpg");
   background-size: cover;
 }
@@ -60,7 +61,7 @@
   margin: auto;
   display: flex;
   width: 50%;
-  min-height: 300px;
+  min-height: 150px;
   justify-content: center;
   background: rgb(112, 169, 245);
   box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
