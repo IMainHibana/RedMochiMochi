@@ -20,11 +20,10 @@ const Notif = (props) => {
 
     return(
         <div className="container">
-            <h1>{Sitting}</h1>
-            <h2>{Breaktime}</h2>
+            <h1>You have a safety notification.</h1>
             <ReactNotification />
             <Home />
-            <button onClick={()=>{ alert(SittingTips[Math.floor(Math.random()*SittingTips.length)]); }}>alert</button>
+            {/* <button onClick={()=>{ alert(SittingTips[Math.floor(Math.random()*SittingTips.length)]); }}>alert</button> */}
         </div>
     )
 }
@@ -39,14 +38,17 @@ function Home(){
             container:"center",
             insert:"top",
             animationIn: ["animated", "fadeIn"],
-            animationOut: ["animated", "fadeOut"]
+            animationOut: ["animated", "fadeOut"],
+            dismiss:{
+                duration:2000
+            }
         })
     }
 
     return(
         <div>
             <button onClick={handleOnClickDefault}>
-                default
+                Tip
             </button>
         </div>
     )
