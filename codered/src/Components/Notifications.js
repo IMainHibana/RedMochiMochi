@@ -34,10 +34,10 @@ function Home(){
         store.addNotification({
             title:Sitting,
             message:stringmsg,
-            type:"warning",
-            container:"center",
-            insert:"top",
-            animationIn: ["animated", "fadeIn"],
+            type:"success",
+            insert: "top",
+            container:"top-left",
+            animationIn: ["animate__animated animate__fadeIn"],
             animationOut: ["animated", "fadeOut"],
             dismiss:{
                 duration:2000,
@@ -48,7 +48,7 @@ function Home(){
     return(
         <div>
             <button onClick={handleOnClickDefault}>
-                Tip
+                Get A Free Tip
             </button>
         </div>
     )
