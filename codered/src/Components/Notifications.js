@@ -23,7 +23,6 @@ const Notif = (props) => {
             <h1>You have a safety notification.</h1>
             <ReactNotification />
             <Home />
-            {/* <button onClick={()=>{ alert(SittingTips[Math.floor(Math.random()*SittingTips.length)]); }}>alert</button> */}
         </div>
     )
 }
