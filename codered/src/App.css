@@ -26,11 +26,15 @@
 }
 
 .App .tips {
-  padding: 64px;
+  justify-content: center;
+  padding-top: 64px;
+  padding-left: 100px;
+  padding-right: 100px;
   background-color: transparent;
 }
 
 .App .tipform {
+  padding-top: 60px;
   margin: auto;
   display: flex;
   min-height: 300px;
