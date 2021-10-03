@@ -12,7 +12,6 @@ function App() {
       <h2>Hello sussy bakas</h2>
       </nav>
       <div className="tips">
-        <h2>I am the Godfather</h2>
       </div>
       <div className="notifs">
         <Notif></Notif>
@@ -21,10 +20,6 @@ function App() {
       <TipForm></TipForm>
       </div>
       <div className="worksafe">
-      <header className="App-header">
-        <p class="p2">MOCHI</p>
-      </header>
-      <p class="p3">This is a paragraph, shown in the Times New Roman font.</p>
       </div>
     </div>
   );
