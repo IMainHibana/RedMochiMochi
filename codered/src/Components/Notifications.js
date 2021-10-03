@@ -1,9 +1,10 @@
 
 import React, {useState, useEffect} from 'react';
 import { Alert } from 'react-alert';
+import ReactNotification, { store } from 'react-notifications-component';
+import 'react-notifications-component/dist/theme.css'
 
-const Notif = (props) => {
-    const Sitting = "Hey! You've probably been sitting for the past 30 minutes.";
+const Sitting = "Hey! You've probably been sitting for the past 30 minutes.";
     const Standing = "Hey! You've probably been moving around a lot for the past 30 minutes.";
     const Breaktime = "It's time for a break. You need one.";
     const SittingTips = [
@@ -15,13 +16,40 @@ const Notif = (props) => {
         "10 push-ups. Now."
     ];
 
+const Notif = (props) => {
+
     return(
-        <div className="notifs">
+        <div className="container">
             <h1>{Sitting}</h1>
             <h2>{Breaktime}</h2>
+            <ReactNotification />
+            <Home />
             <button onClick={()=>{ alert(SittingTips[Math.floor(Math.random()*SittingTips.length)]); }}>alert</button>
         </div>
     )
 }
+/* to make comm */
+function Home(){
+    const stringmsg = Breaktime + "\n" + (SittingTips[Math.floor(Math.random()*SittingTips.length)])
+    const handleOnClickDefault = () =>{
+        store.addNotification({
+            title:Sitting,
+            message:stringmsg,
+            type:"warning",
+            container:"top-right",
+            insert:"top",
+            animationIn: ["animated", "fadeIn"],
+            animationOut: ["animated", "fadeOut"]
+        })
+    }
+
+    return(
+        <div>
+            <button onClick={handleOnClickDefault}>
+                default
+            </button>
+        </div>
+    )
+}    
 
 export default Notif;
