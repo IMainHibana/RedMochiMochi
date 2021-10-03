@@ -1,4 +1,6 @@
-import React, {useState, useEffect} from 'react'
+
+import React, {useState, useEffect} from 'react';
+import { Alert } from 'react-alert';
 
 const Notif = (props) => {
     const Sitting = "Hey! You've probably been sitting for the past 30 minutes.";
@@ -14,11 +16,11 @@ const Notif = (props) => {
     ];
 
     return(
-        <alert>
+        <div className="notifs">
             <h1>{Sitting}</h1>
             <h2>{Breaktime}</h2>
-            <h3>{SittingTips[Math.floor(Math.random()*SittingTips.length)]}</h3>
-        </alert>
+            <button onClick={()=>{ alert(SittingTips[Math.floor(Math.random()*SittingTips.length)]); }}>alert</button>
+        </div>
     )
 }
 
