@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 
-class App extends React.Component {
+const photoTips = (props) => {
 
     render() {
 
@@ -41,6 +41,3 @@ class App extends React.Component {
 
 
 }
-
-
-export default App;
