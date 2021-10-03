@@ -1,4 +1,7 @@
 # RedMochiMochi
-Hackathon Stuff
+Code Red Artemis Hackathon 2021
 
-very sussy baka of you
+Team Submission
+
+Members:
+Chi Ngo, Aaron Wright, Malay Sanchiher, Nick Hiller, Victor Kwok
