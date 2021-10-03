@@ -20,7 +20,7 @@
 }
 
 .App {
-  padding: 0 20px;
+  overflow-x: hidden; 
   background-image: url("https://image.freepik.com/free-vector/white-abstract-background_23-2148810113.jpg");
   background-size: cover;
 }
