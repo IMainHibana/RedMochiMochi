@@ -69,7 +69,13 @@
 h1 {
   text-shadow: 2px 2px;
 }
+
 .worksafe{
   background-image: url("https://image.freepik.com/free-vector/white-abstract-background_23-2148810113.jpg");
 }
+
+.App .forms {
+  display:inline-flex;
+}
+
 

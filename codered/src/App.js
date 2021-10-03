@@ -12,16 +12,16 @@ function App() {
         <nav>
         <h2> Chi is god </h2> 
         </nav> 
+        <div className="forms">
         <div className = "tips" >
         <Photo></Photo>
         </div> 
         <div className = "notifs" >
         <Notif> </Notif> 
         </div> 
+        </div>
         <div className = "tipform" >
         <TipForm> </TipForm> 
-        </div> 
-        <div className = "worksafe" >
         </div> 
         </div>
     );
