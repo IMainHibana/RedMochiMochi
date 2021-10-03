@@ -36,7 +36,7 @@ function Home(){
             title:Sitting,
             message:stringmsg,
             type:"warning",
-            container:"top-right",
+            container:"center",
             insert:"top",
             animationIn: ["animated", "fadeIn"],
             animationOut: ["animated", "fadeOut"]
