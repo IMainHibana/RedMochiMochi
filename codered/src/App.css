@@ -20,26 +20,15 @@
 }
 
 .App {
-  min-height: 100vh;
   padding: 0 20px;
   background-image: url("https://image.freepik.com/free-vector/white-abstract-background_23-2148810113.jpg");
-  background-size: 1000 x 600;
+  background-size: cover;
 }
 
 
 .App .tips {
-  background-color: #282c34;
-}
-
-.App-header {
-
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: rgb(0, 0, 0);
+  padding: 100px;
+  background-color: transparent;
 }
 
 .App .tipform {
