@@ -10,7 +10,7 @@ function App() {
     return ( 
         <div className = "App" >
         <nav>
-        <h2> Hello sussy bakas </h2> 
+        <h2> Health and Wellness App </h2> 
         </nav> 
         <div className="forms">
         <div className = "tips" >
